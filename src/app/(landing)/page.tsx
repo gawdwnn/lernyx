@@ -10,7 +10,7 @@ const Pricing = dynamic(
 const Home = () => {
   return (
     <main className="md:px-10 py-20 flex flex-col gap-36">
-      <div>
+      <div className='gap-5'>
         <CallToAction />
         <DashboardSnippet />
       </div>

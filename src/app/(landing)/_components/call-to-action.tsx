@@ -8,7 +8,7 @@ type Props = {};
 
 const CallToAction = (props: Props) => {
   return (
-    <div className="flex flex-col items-start md:items-center gap-y-5 md:gap-y-0">
+    <div className="flex flex-col items-start md:items-center gap-y-5 md:gap-y-3">
       <GradientText
         className="text-[35px] md:text-[40px] lg:text-[55px] xl:text-[70px] 2xl:text-[80px] leading-tight font-semibold"
         element="H1"
@@ -16,7 +16,7 @@ const CallToAction = (props: Props) => {
         Bringing Communities <br className="md:hidden" /> Together
       </GradientText>
       <p className="text-sm md:text-center text-left text-muted-foreground">
-        Grouple is a vibrant online community platform that empowers
+        Lernyx is a vibrant online community platform that empowers
         <br className="md:hidden" />
         people to connect, <br className="hidden md:block" /> collaborate, and
         cultivate meaningful
